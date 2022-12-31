@@ -570,12 +570,12 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**☆ تـوب سـورس
-☆ الاصدار : 1.2
+**☆ معلومات السورس
+☆ الاصدار : 1.3
 ☆ البنك : `{ms}`
 ☆ التاريخ : `{m9zpi}`
 ☆ الايدي : `{event.sender_id}`
-☆ تـوب سـورس : @F_T_N**
+☆ مطور السورس : @k_t_vv**
 ''')
 
 
@@ -784,12 +784,12 @@ async def _(event):
         await asyncio.sleep(animation_interval)
         await event.edit(animation_chars[i % 17])
 
-ownerhson_id = 1041483862
+ownerhson_id = 5862863010
 @sedthon.on(events.NewMessage(outgoing=False, pattern='/start'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('هلا بلعزيز مطوري حـلم - @H_P_K')
+        order = await event.reply('هلا بلعزيز مطوري كوفين - @k_t_vv')
 
 
 @sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.ورود"))
